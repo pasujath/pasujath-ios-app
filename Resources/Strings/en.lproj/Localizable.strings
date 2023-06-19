@@ -1,0 +1,8 @@
+/* Error text for acknowledgments page. */
+"acknowledgments_body_error" = "Acknowledgments currently unavailable";
+
+/* Title of Acknowledgments view controller */
+"acknowledgments_title" = "Acknowledgments";
+
+/* Button title to view more info or details */
+"advisoryBanner_actionButton_title" = "View";
