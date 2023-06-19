@@ -1,0 +1,15 @@
+phrase:
+  access_token: 5f3372f3049f24d34e84d6aa58b27d79445adc5629ac1e76fff6c2ff14397f4f
+  project_id: ec2cdd432bb69d5a7c9306c9c149ad82
+  push:
+    sources:
+    - file: ./Resources/Strings/<locale_code>.lproj/Localizable.strings
+      params:
+        file_format: xml
+        locale_id: en
+        update_translations: true
+  pull:
+    targets:
+    - file: ./Resources/Strings/<locale_code>.lproj/Localizable.strings
+      params:
+        file_format: xml
