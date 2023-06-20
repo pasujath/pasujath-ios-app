@@ -5,11 +5,11 @@ phrase:
     sources:
     - file: ./Resources/Strings/<locale_code>.lproj/Localizable.strings
       params:
-        file_format: xml
+        file_format: strings
         locale_id: en
         update_translations: true
   pull:
     targets:
     - file: ./Resources/Strings/<locale_code>.lproj/Localizable.strings
       params:
-        file_format: xml
+        file_format: strings
